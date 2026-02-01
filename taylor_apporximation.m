@@ -4,7 +4,7 @@ syms x
 % --- CONFIGURATION ---
 f = sin(x)/x + 0.5*cos(x)*x-0.1*x+3*sin(x)^2;           % The original function
 a = 0;                % Expansion point (center)
-n_orders = [1, 3, 5, 7, 11, 41]; % Array of orders to compare (n-th degree polynomial)
+n_orders = [1, 3, 5, 7, 11, 41, 71]; % Array of orders to compare (n-th degree polynomial)
 x_range = [-4*pi, 4*pi]; 
 % ---------------------
 
